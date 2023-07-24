@@ -209,7 +209,6 @@ html{
  .services{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    direction: rtl;
  }
  .services .services-content{
     display:grid;
