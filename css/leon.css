@@ -85,6 +85,7 @@ html{
 .header .logo{
     width: 60px;
 }
+
 .header .links{
     position: relative;
 }
@@ -146,6 +147,7 @@ html{
 }
 .header .links ul li a:hover{
     padding-left: 25px;
+    padding-right: 25px;
 }
 .header .links ul li:not(:last-child) a{
     border-bottom: 1px solid #ddd;
@@ -205,6 +207,8 @@ html{
     font-size: 17px;
     line-height: 1.8;
  }
+ /* End feature */
+
  /* Start Services  */
  .services{
     padding-top: var(--section-padding);
@@ -265,8 +269,8 @@ html{
       .services .services-content .image{
         display: none;
      }
-
  }
+
  /* Start Portoflio */
 
  .portfolio {
@@ -316,6 +320,7 @@ html{
     margin:0 auto 80px;
   }
 }
+
 .about .about-content .image::before{
   content: "";
   position: absolute;
@@ -325,8 +330,8 @@ html{
   top: -40px;
   left: -20px;
   z-index: -1;
-
 }
+
 .about .about-content .image::after{
   content: "";
   position: absolute;
@@ -338,6 +343,7 @@ html{
   right: -150px;
   z-index: -1;
 }
+
 @media(max-width:991px){
   .about .about-content .image::before,
   .about .about-content .image::after{

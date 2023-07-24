@@ -1,0 +1,24 @@
+
+.header {
+    direction: ltr;
+}
+.header .links ul{
+    direction: rtl;
+}
+ /* Start Services  */
+.services .services-content .image::before{
+   right: 260px;
+}
+    /* End Services  */
+
+
+  /* Start about */
+.about .about-content .image::before{
+    left: 170px;
+}
+ .about .about-content .image::after{
+    border-left: 0;
+    border-right: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    right: 200px;
+}
